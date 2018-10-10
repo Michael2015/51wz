@@ -19,10 +19,24 @@
                         <li><a href="#">中超球星</a></li>
                     </ul>
                 </nav>
-                <nav class="navbar-userbar hidden-xs">
-
-                </nav>
             </div>
         </div>
     </header>
+    <section>
+        <div class="rollpic cl"> <a href="javascript:void(0)" class="prev"></a>
+            <div class="rollpicshow">
+                <ul>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/1.jpg"></li>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/2.jpg"></li>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/3.jpg"></li>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/4.jpg"></li>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/5.jpg"></li>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/5.jpg"></li>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/5.jpg"></li>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/5.jpg"></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="next"></a>
+        </div>
+    </section>
 @endsection

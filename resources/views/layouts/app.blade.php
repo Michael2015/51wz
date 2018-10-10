@@ -22,6 +22,8 @@
     @yield('content')
 </div>
 <script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/h-ui.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/H-ui.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/jcarousellite.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/app.js')}}"></script>
 </body>
 </html>

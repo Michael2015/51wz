@@ -4,5 +4,17 @@ html
 }
 body
 {
-    background:url("../images/bg.png") center center no-repeat transparent;;
+    background:url("../images/bg.png") 0 0 no-repeat transparent;;
 }
+.container
+{
+    width: 1000px!important;
+    min-width:1000px!important;;
+}
+.rollpic .prev,.rollpic .next{display:block; height:38px; width:38px; cursor:pointer; float:left;  margin-top:70px}
+.rollpic .prev{background-position:0 0; margin-right:5px}
+.rollpic .prev:hover{background-position:0 -38px}
+.rollpic .next{background-position:0 -76px;margin-left:5px}
+.rollpic .next:hover{background-position:0 -114px}
+.rollpicshow{float:left; border:solid 1px #ddd}
+.rollpicshow li{padding:10px}
