@@ -22,8 +22,9 @@
             </div>
         </div>
     </header>
-    <section>
-        <div class="rollpic cl"> <a href="javascript:void(0)" class="prev"></a>
+    <section class="i-schedule">
+        <div class="rollpic cl">
+            <a href="javascript:void(0)" class="prev"></a>
             <div class="rollpicshow">
                 <ul>
                     <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/1.jpg"></li>

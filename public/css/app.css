@@ -11,10 +11,12 @@ body
     width: 1000px!important;
     min-width:1000px!important;;
 }
-.rollpic .prev,.rollpic .next{display:block; height:38px; width:38px; cursor:pointer; float:left;  margin-top:70px}
-.rollpic .prev{background-position:0 0; margin-right:5px}
-.rollpic .prev:hover{background-position:0 -38px}
-.rollpic .next{background-position:0 -76px;margin-left:5px}
-.rollpic .next:hover{background-position:0 -114px}
-.rollpicshow{float:left; border:solid 1px #ddd}
-.rollpicshow li{padding:10px}
+.i-schedule
+{
+    margin: 20px 0;
+}
+.rollpic .prev,.rollpic .next{display:block; height:143px; width:40px; cursor:pointer; float:left; margin:0;padding:0;background: red;border: 0}
+.rollpic .prev{background-position:0 0;}
+.rollpic .next{background-position:0 -76px;}
+.rollpicshow{float:left;width: 920px!important;border:0;}
+.rollpicshow li{padding:0 0 0 11px;}
