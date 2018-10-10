@@ -31,9 +31,9 @@
                     <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/3.jpg"></li>
                     <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/4.jpg"></li>
                     <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/5.jpg"></li>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/5.jpg"></li>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/5.jpg"></li>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/5.jpg"></li>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/6.jpg"></li>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/7.jpg"></li>
+                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/8.jpg"></li>
                 </ul>
             </div>
             <a href="javascript:void(0)" class="next"></a>

@@ -1,6 +1,6 @@
 $(function(){
     $(".rollpicshow").jCarouselLite({
-        auto: 2000, /*自动播放间隔时间*/
+        auto: 0, /*自动播放间隔时间*/
         speed: 500, /*速度*/
         btnNext:".next",/*向前滚动*/
         btnPrev:".prev",/*向后滚动*/
