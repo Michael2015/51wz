@@ -24,20 +24,102 @@
     </header>
     <section class="i-schedule">
         <div class="rollpic cl">
-            <a href="javascript:void(0)" class="prev"></a>
+            <a href="javascript:void(0)" class="prev">&lt;</a>
             <div class="rollpicshow">
                 <ul>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/1.jpg"></li>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/2.jpg"></li>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/3.jpg"></li>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/4.jpg"></li>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/5.jpg"></li>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/6.jpg"></li>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/7.jpg"></li>
-                    <li><img width="170" height="143" title="" src="http://www.h-ui.net/temp/8.jpg"></li>
+                    <li>
+                        <div class="panel panel-default">
+                            <div class="panel-header">2018/10/12  周六</div>
+                            <div class="panel-body">
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%" >重庆斯威</span>
+                                </a>
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%" >广州恒大</span>
+                                </a>
+
+                                <label><img  src="{{asset('images/vs.png')}}"> </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="panel panel-default">
+                            <div class="panel-header">2018/10/12  周六</div>
+                            <div class="panel-body">
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%" >重庆斯威</span>
+                                </a>
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%" >广州恒大</span>
+                                </a>
+
+                                <label><img  src="{{asset('images/vs.png')}}"> </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="panel panel-default">
+                            <div class="panel-header">2018/10/12  周六</div>
+                            <div class="panel-body">
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%" >重庆斯威</span>
+                                </a>
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%" >广州恒大</span>
+                                </a>
+
+                                <label><img  src="{{asset('images/vs.png')}}"> </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="panel panel-default">
+                            <div class="panel-header">2018/10/12  周六</div>
+                            <div class="panel-body">
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%" >重庆斯威</span>
+                                </a>
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%" >广州恒大</span>
+                                </a>
+
+                                <label><img  src="{{asset('images/vs.png')}}"> </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="panel panel-default">
+                            <div class="panel-header">2018/10/12  周六</div>
+                            <div class="panel-body">
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%" >重庆斯威</span>
+                                </a>
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%" >广州恒大</span>
+                                </a>
+
+                                <label><img  src="{{asset('images/vs.png')}}"> </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="panel panel-default">
+                            <div class="panel-header">2018/10/12  周六</div>
+                            <div class="panel-body">
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%" >重庆斯威</span>
+                                </a>
+                                <a href="">
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%" >广州恒大</span>
+                                </a>
+
+                                <label><img  src="{{asset('images/vs.png')}}"> </label>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
-            <a href="javascript:void(0)" class="next"></a>
+            <a href="javascript:void(0)" class="next">&gt;</a>
         </div>
     </section>
 @endsection
