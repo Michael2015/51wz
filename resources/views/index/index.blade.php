@@ -3,25 +3,7 @@
 @section('keywords', '中超联赛,央视中超联赛,中国足球联赛,中超联赛直播')
 @section('description', '中超联赛直播网，为广大球迷提供中国足球联赛的直播视频，历史视频锦集，中超联赛积分排名，中超联赛赛程，中超联赛新闻等信息。')
 @section('content')
-    <header class="navbar-wrapper">
-        <div class="navbar navbar-black">
-            <div class="container cl">
-                <a class="logo navbar-logo f-l mr-10 hidden-xs" href="{{url('/')}}">中超联赛直播网</a>
-                <span class="logo navbar-slogan f-l mr-10 hidden-xs">视频 &middot; 赛程 &middot; 排名&middot; 锦集</span>
-                <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
-                <nav class="nav navbar-nav nav-collapse" role="navigation" id="Hui-navbar">
-                    <ul class="cl">
-                        <li class="current"><a href="/">中超直播</a></li>
-                        <li><a href="#">中超赛程</a></li>
-                        <li><a href="#">中超排名</a></li>
-                        <li><a href="#">视频锦集</a></li>
-                        <li><a href="#">中超新闻</a></li>
-                        <li><a href="#">中超球星</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+    <!--  start  首页赛程  -->
     <section class="i-schedule">
         <div class="rollpic cl">
             <a href="javascript:void(0)" class="prev">&lt;</a>
@@ -122,4 +104,94 @@
             <a href="javascript:void(0)" class="next">&gt;</a>
         </div>
     </section>
+    <!--  end  首页赛程  -->
+
+    <!--  start  首页视频播放模块  -->
+    <section class="i-video-play">
+        <div class="v-left">
+            <div id="index-slider" class="bg-fff box-shadow radius">
+                <div class="slider">
+                    <div class="bd bg-fff">
+                        <ul>
+                            <li><a href="#" target="_blank"><img src="http://p1.img.cctvpic.com/photoAlbum/photo/2018/10/06/PHOTIf3AHsyBM4AWY7EQwgQ4181006_920x700.jpg" ></a></li>
+                            <li><a href="#" target="_blank"><img src="http://p1.img.cctvpic.com/photoAlbum/photo/2018/10/06/PHOTIf3AHsyBM4AWY7EQwgQ4181006_920x700.jpg" ></a></li>
+                            <li><a href="#" target="_blank"><img src="http://p1.img.cctvpic.com/photoAlbum/photo/2018/10/06/PHOTIf3AHsyBM4AWY7EQwgQ4181006_920x700.jpg" ></a></li>
+                            <li><a href="#" target="_blank"><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/b-3.jpg" ></a></li>
+                            <li><a href="#" target="_blank"><img src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2018/10/5/1538747601070_528.jpg" ></a></li>
+                            <li><a href="#" target="_blank"><img src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2018/10/5/1538747601070_528.jpg" ></a></li>
+                        </ul>
+                    </div>
+                    <ol class="hd cl">
+                        <li><i></i><img src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2018/10/5/1538747601070_528.jpg" width="80" height="58"></li>
+                        <li><i></i><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/s-2.jpg" width="80" height="58"></li>
+                        <li><i></i><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/s-3.jpg" width="80" height="58"></li>
+                        <li><i></i><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/s-4.jpg" width="80" height="58"></li>
+                        <li><i></i><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/s-5.jpg" width="80" height="58"></li>
+                        <li><i></i><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/s-6.jpg" width="80" height="58"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="v-right">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721502343621.jpg" width="100%" alt="">
+                    </a>
+                    <p title="[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦">[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦</p>
+                    <img src="http://p4.img.cctvpic.com/photoAlbum/templet/common/DEPA1369284760658135/icon_xuqiu13251_01.png" alt="">
+                </li>
+                <li>
+                    <a href="">
+                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721502343621.jpg" width="100%" alt="">
+                    </a>
+                    <p title="[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦">[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦</p>
+                    <img src="http://p4.img.cctvpic.com/photoAlbum/templet/common/DEPA1369284760658135/icon_xuqiu13251_01.png" alt="">
+                </li>
+                <li>
+                    <a href="">
+                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721502343621.jpg" width="100%" alt="">
+                    </a>
+                    <p title="[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦">[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦</p>
+                    <img src="http://p4.img.cctvpic.com/photoAlbum/templet/common/DEPA1369284760658135/icon_xuqiu13251_01.png" alt="">
+                </li>
+                <li>
+                    <a href="">
+                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721502343621.jpg" width="100%" alt="">
+                    </a>
+                    <p title="[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦">[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦</p>
+                    <img src="http://p4.img.cctvpic.com/photoAlbum/templet/common/DEPA1369284760658135/icon_xuqiu13251_01.png" alt="">
+                </li>
+                <li>
+                    <a href="">
+                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721502343621.jpg" width="100%" alt="">
+                    </a>
+                    <p title="[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦">[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦</p>
+                    <img src="http://p4.img.cctvpic.com/photoAlbum/templet/common/DEPA1369284760658135/icon_xuqiu13251_01.png" alt="">
+                </li>
+                <li>
+                    <a href="">
+                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721502343621.jpg" width="100%" alt="">
+                    </a>
+                    <p title="[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦">[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦</p>
+                    <img src="http://p4.img.cctvpic.com/photoAlbum/templet/common/DEPA1369284760658135/icon_xuqiu13251_01.png" alt="">
+                </li>
+                <li>
+                    <a href="">
+                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721502343621.jpg" width="100%" alt="">
+                    </a>
+                    <p title="[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦">[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦</p>
+                    <img src="http://p4.img.cctvpic.com/photoAlbum/templet/common/DEPA1369284760658135/icon_xuqiu13251_01.png" alt="">
+                </li>
+                <li>
+                    <a href="">
+                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721502343621.jpg" width="100%" alt="">
+                    </a>
+                    <p title="[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦">[中超]第25轮：上海上港5-0贵州恒丰 比赛集锦</p>
+                    <img src="http://p4.img.cctvpic.com/photoAlbum/templet/common/DEPA1369284760658135/icon_xuqiu13251_01.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--  end  首页赛程  -->
 @endsection
