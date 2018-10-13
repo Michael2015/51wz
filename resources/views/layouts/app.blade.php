@@ -30,7 +30,8 @@
                         <li class="current"><a href="/">中超直播</a></li>
                         <li><a href="#">中超赛程</a></li>
                         <li><a href="#">中超排名</a></li>
-                        <li><a href="#">视频锦集</a></li>
+                        <li><a href="#">中超视频</a></li>
+                        <li><a href="#">中超图库</a></li>
                         <li><a href="#">中超新闻</a></li>
                         <li><a href="#">中超球星</a></li>
                     </ul>
