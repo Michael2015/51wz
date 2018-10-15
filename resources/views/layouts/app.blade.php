@@ -40,6 +40,14 @@
         </div>
     </header>
     @yield('content')
+    <footer class="footer mt-20">
+        <div class="container-fluid">
+            <nav> <a href="#" target="_blank">本站将为您带来精彩丰富的<strong>中超联赛直播</strong>视频、新闻、赛程、积分、直播等内容，将带您全面了解中超联赛</a></nav>
+            <p>Copyright&copy; 2018 51wz.wang 侵权联系：3087808537#qq.com All Rights Reserved. <br>
+                <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">京ICP备1000000号</a><br>
+            </p>
+        </div>
+    </footer>
 </div>
 <script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/H-ui.js')}}"></script>

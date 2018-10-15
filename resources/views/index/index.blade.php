@@ -269,7 +269,7 @@
     <section class="i-category">
         <!-- 排名 -->
         <div class="i-rank">
-            <div id="tab_demo" class="HuiTab">
+            <div  class="HuiTab">
                 <div class="tabBar clearfix"><span class="current">中超排名</span></div>
                 <div class="tabCon">
                     <table class="table table-border table-bordered table-hover">
@@ -504,7 +504,7 @@
         <!-- 排名 -->
         <!-- 视频 -->
         <div class="i-cate-all">
-            <div id="tab_demo" class="HuiTab">
+            <div  class="HuiTab">
                 <div class="tabBar clearfix"><span class="current">视频锦集</span></div>
                 <div class="tabCon">
                     <ul>
@@ -665,126 +665,155 @@
         <!-- 视频 -->
 
         <!-- 图片 -->
-        <div class="i-cate-all">
-            <div id="tab_demo" class="HuiTab">
+        <div class="i-cate-all i-cate-img">
+            <div  class="HuiTab">
                 <div class="tabBar clearfix"><span class="current">中超图库</span></div>
                 <div class="tabCon">
                     <ul>
                         <li>
                             <div class="panel panel-secondary">
-                                <a href="">
-                                    <div class="panel-body">
+                                <div class="panel-body">
+                                    <h3>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h3>
+                                    <a href="">
                                         <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
                                              alt="">
-                                        <h4>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h4>
-                                    </div>
-                                </a>
+                                    </a>
+                                    <a href="">
+                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
+                                             alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
+                                             alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
+                                             alt="" class="last">
+                                    </a>
+                                </div>
+
                             </div>
                         </li>
                         <li>
                             <div class="panel panel-secondary">
-                                <a href="">
-                                    <div class="panel-body">
+                                <div class="panel-body">
+                                    <h3>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h3>
+                                    <a href="">
                                         <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
                                              alt="">
-                                        <h4>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h4>
-                                    </div>
-                                </a>
+                                    </a>
+                                    <a href="">
+                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
+                                             alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
+                                             alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
+                                             alt="" class="last">
+                                    </a>
+                                </div>
+
                             </div>
                         </li>
                         <li>
                             <div class="panel panel-secondary">
-                                <a href="">
-                                    <div class="panel-body">
+                                <div class="panel-body">
+                                    <h3>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h3>
+                                    <a href="">
                                         <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
                                              alt="">
-                                        <h4>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h4>
-                                    </div>
-                                </a>
+                                    </a>
+                                    <a href="">
+                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
+                                             alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
+                                             alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
+                                             alt="" class="last">
+                                    </a>
+                                </div>
+
                             </div>
                         </li>
                         <li>
                             <div class="panel panel-secondary">
-                                <a href="">
-                                    <div class="panel-body">
+                                <div class="panel-body">
+                                    <h3>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h3>
+                                    <a href="">
                                         <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
                                              alt="">
-                                        <h4>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="panel panel-secondary">
-                                <a href="">
-                                    <div class="panel-body">
+                                    </a>
+                                    <a href="">
                                         <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
                                              alt="">
-                                        <h4>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="panel panel-secondary">
-                                <a href="">
-                                    <div class="panel-body">
+                                    </a>
+                                    <a href="">
                                         <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
                                              alt="">
-                                        <h4>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="panel panel-secondary">
-                                <a href="">
-                                    <div class="panel-body">
+                                    </a>
+                                    <a href="">
                                         <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
-                                             alt="">
-                                        <h4>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h4>
-                                    </div>
-                                </a>
+                                             alt="" class="last">
+                                    </a>
+                                </div>
+
                             </div>
                         </li>
-                        <li>
-                            <div class="panel panel-secondary">
-                                <a href="">
-                                    <div class="panel-body">
-                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
-                                             alt="">
-                                        <h4>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="panel panel-secondary">
-                                <a href="">
-                                    <div class="panel-body">
-                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
-                                             alt="">
-                                        <h4>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="panel panel-secondary">
-                                <a href="">
-                                    <div class="panel-body">
-                                        <img src="http://p1.img.cctvpic.com/photoworkspace/2018/10/07/2018100721104689244.jpg"
-                                             alt="">
-                                        <h4>[中超]胡尔克斜塞助攻 武磊单刀推射破门 武磊单刀推射破门</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
+                        <div class="clear"></div>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- 图片 -->
+
+        <!-- 新闻 -->
+        <div class="i-cate-all i-cate-news">
+            <div  class="HuiTab">
+                <div class="tabBar clearfix"><span class="current">中超新闻</span></div>
+                <div class="tabCon">
+                    <ul>
+                        <li>
+                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
+                        </li>
+                        <li>
+                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
+                        </li>
+                        <li>
+                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
+                        </li>
+                        <li>
+                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
+                        </li> <li>
+                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
+                        </li>
+                        <li>
+                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
+                        </li>
+                        <li>
+                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
+                        </li>
+                        <li>
+                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
+                        </li>
+                        <li>
+                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
+                        </li>
+                        <li>
+                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 新闻 -->
     </section>
     <!--  end  首页分类模块  -->
 @endsection

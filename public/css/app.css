@@ -17,8 +17,8 @@ body {
 
 .rollpic .prev, .rollpic .next {
     display: block;
-    height: 143px;
-    width: 42px;
+    height: 117px;
+    width: 20px;
     line-height: 143px;
     cursor: pointer;
     float: left;
@@ -34,12 +34,12 @@ body {
 
 .rollpicshow {
     float: left;
-    width: 916px !important;
+    width: 960px !important;
     border: 0;
 }
 
 .rollpicshow li {
-    padding: 0 0 0 11px;
+    padding: 0 0 0 5px;
 }
 
 .rollpic a:hover {
@@ -50,7 +50,10 @@ body {
     border: 0;
     position: relative;
 }
-
+.i-schedule .panel .panel-body
+{
+    padding: 8px;
+}
 .i-schedule .panel-header {
     background: #222;
     color: #eee;
@@ -59,8 +62,8 @@ body {
 }
 
 .i-schedule ul li > div {
-    width: 170px;
-    height: 143px;
+    width: 155px;
+    height: 116px;
 }
 
 .i-schedule ul li span {
@@ -84,7 +87,7 @@ body {
 .i-schedule ul li label {
     position: absolute;
     right: 15px;
-    top: 73px;
+    top: 62px;
 }
 
 .slider .bd, .slider .bd li, .slider .bd img {
@@ -103,8 +106,8 @@ body {
 
 .i-video-play .v-right ul li {
     float: left;
-    width: 140px;
-    margin-left: 10px;
+    width: 145px;
+    margin-left: 5px;
     margin-bottom: 10px;
     position: relative;
 }
@@ -198,7 +201,7 @@ body {
 
 .i-category .i-cate-all .panel-body {
     position: relative;
-    padding: 5px;
+    padding: 5px 5px 0 0;
 }
 
 .i-category .i-cate-all li {
@@ -224,17 +227,73 @@ body {
     color: white;
     background: #222;
 }
+.i-category .i-cate-img  ul li
+{
+    width: 100%;
+}
+.i-category .i-cate-img  ul li h3
+{
+    padding-top: 10px;
+}
+.i-category .i-cate-img li  .panel-body a
+{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.i-category .i-cate-img li  .panel-body
+{
+    padding:5px 0 0 0;
+}
+.i-category .i-cate-img li  .panel-body a img
+{
+    width: 98%;
+    height: 184px;
+}
+.i-category .i-cate-img li  .panel-body a img.last
+{
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
+.slider .hd li
+{
+    margin: 0;
+}
+.i-category .i-cate-news
+{
+    margin-top:10px;
+}
+.i-category .i-cate-news li
+{
+    background: url(http://p1.img.cctvpic.com/photoAlbum/templet/common/DEPA1369710200832408/dian_14449_20160302.png) no-repeat 2px 19px;
+    float: left;
+    width: 100%;
+    margin-right: 0;
+    padding-left: 8px;
+}
+.i-category .i-cate-news li a:hover
+{
+    color: #222;
+    text-decoration: none!important;
+}
+.i-category .i-cate-news li h3
+{
+    float: left;
+    padding: 8px 0;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.i-category .i-cate-news li span
+{
+    display: block;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    padding: 8px 0;
+}
 
 
 
