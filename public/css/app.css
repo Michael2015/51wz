@@ -17,9 +17,9 @@ body {
 
 .rollpic .prev, .rollpic .next {
     display: block;
-    height: 117px;
-    width: 20px;
-    line-height: 143px;
+    height: 94px;
+    width: 22px;
+    line-height: 94px;
     cursor: pointer;
     float: left;
     margin: 0;
@@ -34,12 +34,12 @@ body {
 
 .rollpicshow {
     float: left;
-    width: 960px !important;
+    width: 956px !important;
     border: 0;
 }
 
 .rollpicshow li {
-    padding: 0 0 0 5px;
+    padding: 0 0 0 4px;
 }
 
 .rollpic a:hover {
@@ -62,32 +62,36 @@ body {
 }
 
 .i-schedule ul li > div {
-    width: 155px;
-    height: 116px;
+    width: 132px;
+    height: 93px;
 }
 
-.i-schedule ul li span {
+.i-schedule ul li a {
     display: inline-block;
-    margin-bottom: 15px;
-    font-size: 14px;
-    line-height: 25px;
-    height: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+    width: 100%;
 }
-
+.i-schedule ul li span.fr
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 2em;
+    float: right;
+    padding: 0;
+    text-align: center;
+    background: #999;
+}
 .i-schedule ul li span.c-primary {
     color: #222;
     font-weight: 700;
 }
 
 .i-schedule ul li span img {
+    height: 15px;
     float: left;
     margin-right: 5px;
-}
-
-.i-schedule ul li label {
-    position: absolute;
-    right: 15px;
-    top: 62px;
 }
 
 .slider .bd, .slider .bd li, .slider .bd img {
@@ -143,6 +147,12 @@ body {
     clear: both;
     visibility: hidden;
 }
+.i-category .tabBar span.more
+{
+    float: right;
+    background: transparent;
+    padding: 0;
+}
 
 .i-category .tabCon {
     display: block;
@@ -186,7 +196,10 @@ body {
 .i-category .i-cate-all .panel {
     border: 0;
 }
-
+.i-category .i-cate-all .panel a:hover
+{
+    text-decoration: none;
+}
 .i-category .i-cate-all .panel-header {
     background: #222;
 }
@@ -194,9 +207,9 @@ body {
 .i-category .i-cate-all .panel-body h4 {
     height: 50px;
     line-height: 25px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 12px;
     overflow: hidden;
+    padding: 0 2px;
 }
 
 .i-category .i-cate-all .panel-body {
@@ -234,6 +247,7 @@ body {
 .i-category .i-cate-img  ul li h3
 {
     padding-top: 10px;
+    font-size: 16px;
 }
 .i-category .i-cate-img li  .panel-body a
 {
@@ -265,35 +279,21 @@ body {
 }
 .i-category .i-cate-news li
 {
-    background: url(http://p1.img.cctvpic.com/photoAlbum/templet/common/DEPA1369710200832408/dian_14449_20160302.png) no-repeat 2px 19px;
-    float: left;
-    width: 100%;
-    margin-right: 0;
-    padding-left: 8px;
+    width: auto!important;
 }
-.i-category .i-cate-news li a:hover
+.i-category .i-cate-news .pd-10
 {
-    color: #222;
-    text-decoration: none!important;
+    padding: 0;
 }
-.i-category .i-cate-news li h3
-{
-    float: left;
-    padding: 8px 0;
-    height: 30px;
-    line-height: 30px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.i-category .i-cate-news li span
-{
-    display: block;
-    float: right;
-    height: 30px;
-    line-height: 30px;
-    font-size: 24px;
-    padding: 8px 0;
-}
-
-
-
+.tags a{height:26px; line-height:26px;padding-right:6px}
+.tags0{}
+.tags1{color:#C00; font-size:24px}
+.tags2{color:#030; font-size:16px}
+.tags3{color:#00F}
+.tags4{font-size:16px}
+.tags5{color:#C00; font-size:20px}
+.tags6{color:#F06 font-size:20px}
+.tags7{color:#030; font-weight:bold; font-size:18px}
+.tags8{color:#F06; font-weight:bold}
+.tags9{color:#C00; font-weight:bold;font-size:16px}
+.tags a:hover{color:#F00; text-decoration:underline}

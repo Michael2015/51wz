@@ -14,16 +14,13 @@
                             <div class="panel-header">2018/10/12 周六</div>
                             <div class="panel-body">
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="http://img.cbs.sports.cctv.com/sportradar/teamlogo/41537.png"
-                                                height="100%">重庆斯威</span>
+                                    <span class="c-primary"><img src="http://img.cbs.sports.cctv.com/sportradar/teamlogo/41537.png" height="100%">重庆斯威</span>
+                                    <span class="fr badge badge-success radius">1</span>
                                 </a>
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg"
-                                                height="100%">广州恒大</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%">广州恒大</span>
+                                    <span class="fr badge badge-success radius">3</span>
                                 </a>
-                                <label><img src="{{asset('images/vs.png')}}"> </label>
                             </div>
                         </div>
                     </li>
@@ -32,16 +29,13 @@
                             <div class="panel-header">2018/10/12 周六</div>
                             <div class="panel-body">
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg"
-                                                height="100%">重庆斯威</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%">重庆斯威</span>
+                                    <span class="fr badge badge-success radius">1</span>
                                 </a>
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg"
-                                                height="100%">广州恒大</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%">广州恒大</span>
+                                    <span class="fr badge badge-success radius">1</span>
                                 </a>
-                                <label><img src="{{asset('images/vs.png')}}"> </label>
                             </div>
                         </div>
                     </li>
@@ -50,16 +44,13 @@
                             <div class="panel-header">2018/10/12 周六</div>
                             <div class="panel-body">
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg"
-                                                height="100%">重庆斯威</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%">重庆斯威</span>
+                                    <span class="fr badge badge-success radius">1</span>
                                 </a>
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg"
-                                                height="100%">广州恒大</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%">广州恒大</span>
+                                    <span class="fr badge badge-success radius">3</span>
                                 </a>
-                                <label><img src="{{asset('images/vs.png')}}"> </label>
                             </div>
                         </div>
                     </li>
@@ -68,16 +59,13 @@
                             <div class="panel-header">2018/10/12 周六</div>
                             <div class="panel-body">
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg"
-                                                height="100%">重庆斯威</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%">重庆斯威</span>
+                                    <span class="fr badge badge-success radius">1</span>
                                 </a>
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg"
-                                                height="100%">广州恒大</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%">广州恒大</span>
+                                    <span class="fr badge badge-success radius">0</span>
                                 </a>
-                                <label><img src="{{asset('images/vs.png')}}"> </label>
                             </div>
                         </div>
                     </li>
@@ -86,16 +74,13 @@
                             <div class="panel-header">2018/10/12 周六</div>
                             <div class="panel-body">
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg"
-                                                height="100%">重庆斯威</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%">重庆斯威</span>
+                                    <span class="fr badge badge-success radius">1</span>
                                 </a>
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg"
-                                                height="100%">广州恒大</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%">广州恒大</span>
+                                    <span class="fr badge badge-success radius">5</span>
                                 </a>
-                                <label><img src="{{asset('images/vs.png')}}"> </label>
                             </div>
                         </div>
                     </li>
@@ -104,16 +89,13 @@
                             <div class="panel-header">2018/10/12 周六</div>
                             <div class="panel-body">
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg"
-                                                height="100%">重庆斯威</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/8ad4b31c8701a18b8e62d864922f07082838fe14.jpg" height="100%">重庆斯威</span>
+                                    <span class="fr badge badge-success radius">1</span>
                                 </a>
                                 <a href="">
-                                    <span class="c-primary"><img
-                                                src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg"
-                                                height="100%">广州恒大</span>
+                                    <span class="c-primary"><img src="https://ss3.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/xiaodu/pic/item/e824b899a9014c08d4a4442f017b02087af4f499.jpg" height="100%">广州恒大</span>
+                                    <span class="fr badge badge-success radius">7</span>
                                 </a>
-                                <label><img src="{{asset('images/vs.png')}}"> </label>
                             </div>
                         </div>
                     </li>
@@ -505,7 +487,10 @@
         <!-- 视频 -->
         <div class="i-cate-all">
             <div  class="HuiTab">
-                <div class="tabBar clearfix"><span class="current">视频锦集</span></div>
+                <div class="tabBar clearfix">
+                    <span class="current">视频锦集</span>
+                    <span class="more">更多+</span>
+                </div>
                 <div class="tabCon">
                     <ul>
                         <li>
@@ -667,7 +652,10 @@
         <!-- 图片 -->
         <div class="i-cate-all i-cate-img">
             <div  class="HuiTab">
-                <div class="tabBar clearfix"><span class="current">中超图库</span></div>
+                <div class="tabBar clearfix">
+                    <span class="current">中超图库</span>
+                    <span class="more">更多+</span>
+                </div>
                 <div class="tabCon">
                     <ul>
                         <li>
@@ -776,40 +764,37 @@
         <!-- 新闻 -->
         <div class="i-cate-all i-cate-news">
             <div  class="HuiTab">
-                <div class="tabBar clearfix"><span class="current">中超新闻</span></div>
+                <div class="tabBar clearfix">
+                    <span class="current">中超新闻</span>
+                    <span class="more">更多+</span>
+                </div>
                 <div class="tabCon">
-                    <ul>
-                        <li>
-                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
-                        </li>
-                        <li>
-                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
-                        </li>
-                        <li>
-                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
-                        </li>
-                        <li>
-                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
-                        </li> <li>
-                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
-                        </li>
-                        <li>
-                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
-                        </li>
-                        <li>
-                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
-                        </li>
-                        <li>
-                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
-                        </li>
-                        <li>
-                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
-                        </li>
-                        <li>
-                            <a href=""><h3>日本前锋正式加入中国国籍 将代表中国香港出战</h3><span>2018-12-10 11:10:35</span></a>
-                        </li>
-                        <div class="clear"></div>
-                    </ul>
+                    <div class="pd-10 tags">
+                        <a href="http://www.h-ui.net/">H-ui前端框架</a>
+                        <a href="http://www.h-ui.net/websafecolors.shtml">Web安全色</a>
+                        <a href="http://www.h-ui.net/Hui-4.4-Unslider.shtml">jQuery轮播插件</a>
+                        <a href="http://idc.likejianzhan.com/vhost/korea_hosting.php">韩国云虚拟主机</a>
+                        <a href="http://www.h-ui.net/bug.shtml">IEbug</a>
+                        <a href="http://www.h-ui.net/site.shtml">IT网址导航</a>
+                        <a href="http://www.h-ui.net/icon/index.shtml">网站常用小图标</a>
+                        <a href="http://www.h-ui.net/tools/jsformat.shtml">web工具箱</a>
+                        <a href="http://www.h-ui.net/bg/index.shtml">网站常用背景素材</a>H-ui阅读</a>
+                        <a href="http://www.h-ui.net/easydialog-v2.0/index.html">弹出层插件</a>
+                        <a href="http://www.h-ui.net/SuperSlide2.1/demo.html">SuperSlide插件</a>
+                        <a href="http://www.h-ui.net/TouchSlide1.1/demo.html">TouchSlide</a>
+                        <a href="http://www.h-ui.net/">H-ui前端框架</a>
+                        <a href="http://www.h-ui.net/websafecolors.shtml">Web安全色</a>
+                        <a href="http://www.h-ui.net/Hui-4.4-Unslider.shtml">jQuery轮播插件</a>
+                        <a href="http://idc.likejianzhan.com/vhost/korea_hosting.php">韩国云虚拟主机</a>
+                        <a href="http://www.h-ui.net/bug.shtml">IEbug</a>
+                        <a href="http://www.h-ui.net/site.shtml">IT网址导航</a>
+                        <a href="http://www.h-ui.net/icon/index.shtml">网站常用小图标</a>
+                        <a href="http://www.h-ui.net/tools/jsformat.shtml">web工具箱</a>
+                        <a href="http://www.h-ui.net/bg/index.shtml">网站常用背景素材</a>H-ui阅读</a>
+                        <a href="http://www.h-ui.net/easydialog-v2.0/index.html">弹出层插件</a>
+                        <a href="http://www.h-ui.net/SuperSlide2.1/demo.html">SuperSlide插件</a>
+                        <a href="http://www.h-ui.net/TouchSlide1.1/demo.html">TouchSlide</a>
+                    </div>
                 </div>
             </div>
         </div>
