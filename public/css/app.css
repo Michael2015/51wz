@@ -285,15 +285,47 @@ body {
 {
     padding: 0;
 }
-.tags a{height:26px; line-height:26px;padding-right:6px}
-.tags0{}
-.tags1{color:#C00; font-size:24px}
-.tags2{color:#030; font-size:16px}
-.tags3{color:#00F}
-.tags4{font-size:16px}
-.tags5{color:#C00; font-size:20px}
-.tags6{color:#F06 font-size:20px}
-.tags7{color:#030; font-weight:bold; font-size:18px}
-.tags8{color:#F06; font-weight:bold}
-.tags9{color:#C00; font-weight:bold;font-size:16px}
-.tags a:hover{color:#F00; text-decoration:underline}
+.tags a{
+    height:26px;
+    line-height:26px;
+    padding-right:6px;
+}
+.tags1{
+    color:#C00;
+    font-size:24px;
+}
+.tags2{
+    color:#030;
+    font-size:16px
+}
+.tags3{
+    color:#00F;
+}
+.tags4{
+    font-size:16px;
+}
+.tags5{
+    color:#C00;
+    font-size:20px;
+}
+.tags6{
+    color:#F06;
+    font-size:20px;
+}
+.tags7{
+    color:#030;
+    font-weight:bold;
+    font-size:18px;
+}
+.tags8{color:#F06;
+    font-weight:bold;
+}
+.tags9{
+    color:#C00;
+    font-weight:bold;
+    font-size:16px;
+}
+.tags a:hover{
+    color:#F00;
+    text-decoration:underline;
+}
