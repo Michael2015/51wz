@@ -60,7 +60,10 @@ body {
     font-size: 12px;
     font-weight: normal;
 }
-
+.i-schedule .panel-header.past
+{
+    background: #999;
+}
 .i-schedule ul li > div {
     width: 132px;
     height: 93px;

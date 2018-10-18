@@ -11,7 +11,7 @@
                 <ul>
                     <li>
                         <div class="panel panel-default">
-                            <div class="panel-header">2018/10/12 周六</div>
+                            <div class="panel-header past">2018/10/12 周六</div>
                             <div class="panel-body">
                                 <a href="">
                                     <span class="c-primary"><img src="http://img.cbs.sports.cctv.com/sportradar/teamlogo/41537.png" height="100%">重庆斯威</span>
