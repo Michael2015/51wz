@@ -22,18 +22,15 @@
     <header class="navbar-wrapper">
         <div class="navbar navbar-black">
             <div class="container cl">
-                <a class="logo navbar-logo f-l mr-10 hidden-xs" href="{{url('/')}}">中超联赛直播网</a>
-                <span class="logo navbar-slogan f-l mr-10 hidden-xs">视频 &middot; 赛程 &middot; 排名&middot; 锦集</span>
+                <a class="logo navbar-logo f-l mr-10 hidden-xs" href="{{url('/')}}">新闻1+1直播网</a>
+                <span class="logo navbar-slogan f-l mr-10 hidden-xs">视频 &middot; 锦集 &middot; 图片</span>
                 <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
                 <nav class="nav navbar-nav nav-collapse" role="navigation" id="Hui-navbar">
                     <ul class="cl">
-                        <li class="current"><a href="/">中超直播</a></li>
-                        <li><a href="#">中超赛程</a></li>
-                        <li><a href="#">中超排名</a></li>
-                        <li><a href="#">中超视频</a></li>
-                        <li><a href="#">中超图库</a></li>
-                        <li><a href="#">中超新闻</a></li>
-                        <li><a href="#">中超球星</a></li>
+                        <li class="current"><a href="{{URL::to('/')}}">新闻1+1直播</a></li>
+                        <li><a href="{{URL::to('/video')}}">新闻1+1完整视频</a></li>
+                        <li><a href="{{URL::to('/clip')}}">新闻1+1视频片段</a></li>
+                        <li><a href="{{URL::to('/photo')}}">新闻1+1精彩图片</a></li>
                     </ul>
                 </nav>
             </div>
@@ -42,7 +39,8 @@
     @yield('content')
     <footer class="footer mt-20">
         <div class="container-fluid">
-            <nav> <a href="#" target="_blank">本站将为您带来精彩丰富的<strong>中超联赛直播</strong>视频、新闻、赛程、积分、直播等内容，将带您全面了解中超联赛</a></nav>
+            <nav><a href="#" target="_blank">本站将为您带来精彩丰富的<strong>央视新闻1+1直播</strong>视频、新闻、图片、直播等内容，将带您今早观看新闻1+1直播新闻</a></nav>
+            <nav>本站为方便网民观看并传播、弘扬中央伟大精神;让热爱新闻1+1的观众更早观看社会时事热点新闻</nav>
             <p>Copyright&copy; 2018 51wz.wang 侵权联系：3087808537#qq.com All Rights Reserved. <br>
                 <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">京ICP备1000000号</a><br>
             </p>

@@ -17,9 +17,9 @@ body {
 
 .rollpic .prev, .rollpic .next {
     display: block;
-    height: 94px;
+    height: 127px;
     width: 22px;
-    line-height: 94px;
+    line-height: 127px;
     cursor: pointer;
     float: left;
     margin: 0;
@@ -52,49 +52,24 @@ body {
 }
 .i-schedule .panel .panel-body
 {
-    padding: 8px;
+    padding: 0px;
 }
 .i-schedule .panel-header {
     background: #222;
     color: #eee;
     font-size: 12px;
     font-weight: normal;
-}
-.i-schedule .panel-header.past
-{
-    background: #999;
+    border: 0;
 }
 .i-schedule ul li > div {
     width: 132px;
-    height: 93px;
-}
-
-.i-schedule ul li a {
-    display: inline-block;
-    font-size: 12px;
-    line-height: 15px;
-    height: 15px;
-    width: 100%;
-}
-.i-schedule ul li span.fr
-{
-    height: 15px;
-    width: 15px;
-    border-radius: 2em;
-    float: right;
+    height: 127px;
     padding: 0;
-    text-align: center;
-    background: #999;
 }
-.i-schedule ul li span.c-primary {
-    color: #222;
-    font-weight: 700;
-}
-
-.i-schedule ul li span img {
-    height: 15px;
-    float: left;
-    margin-right: 5px;
+.i-schedule ul li > div img
+{
+    width: 100%;
+    height: 100%;
 }
 
 .slider .bd, .slider .bd li, .slider .bd img {
@@ -331,4 +306,21 @@ body {
 .tags a:hover{
     color:#F00;
     text-decoration:underline;
+}
+.breadcrumb,.breadcrumb a,.breadcrumb span
+{
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+}
+.i-video .i-cate-all
+{
+    margin-top:0;
+}
+.i-photo .i-cate-all ul li{
+    padding-top: 5px;
+}
+.tabCon
+{
+    background: #fff;
 }
