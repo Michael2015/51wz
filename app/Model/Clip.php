@@ -4,19 +4,19 @@ namespace App\Model;
 
 use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 
-class Video extends Eloquent
+class Clip extends Eloquent
 {
     protected $primaryKey = '_id';
     protected $connection = 'mongodb';
-    protected $collection = 'video_video';     //文档名 
-    static $feature_video_url = "http://api.cntv.cn/video/getVideoListByTopicIdInfo?videoid=##&topicid=TOPC1451559066181661&serviceId=tvcctv&type=0&t=jsonp&cb=setItem0=";
+    protected $collection = 'video_clip';     //文档名 
+    static $feature_video_url = "http://api.cntv.cn/video/getVideoListByTopicIdInfo?videoid=##&topicid=TOPC1451559066181661&serviceId=tvcctv&type=0&t=jsonp&cb=setItem1=";
 
-    public static function addVideoVideo()
+    public static function addClipVideo()
     {
         $get_video_url = str_replace('##', self::getLastVideoId(), self::$feature_video_url);
         $output = self::curl($get_video_url);
         if ($output) {
-            $output = str_replace(['setItem0=', '(', ');', '?p=2&h=120'], '', $output);
+            $output = str_replace(['setItem1=', '(', ');', '?p=2&h=120'], '', $output);
             $output = json_decode($output, true);
         }
         self::buildData($output['data'][0]);
@@ -25,15 +25,14 @@ class Video extends Eloquent
     //插入完整视频
     public static function buildData($row)
     {
-        preg_match('#(\d{8})#', $row['video_title'], $matches);
         if (is_array($row)) {
             $obj = new self();
             $obj->video_id = $row['video_id'];
             $obj->video_key_frame_url = $row['video_key_frame_url'];
             $obj->video_focus_date = $row['video_focus_date'];
             $obj->video_length = $row['video_length'];
-            $obj->date = $matches[0];
-            $obj->video_title = $matches[0].'期《新闻1+1》';
+            $obj->date = date("Y-m-d", strtotime($row['video_focus_date']));
+            $obj->video_title = $row['video_title'];
             $obj->guid = $row['guid'];
             $video_detail = self::getVideoContentByUrl($row['video_url']);
             $obj->keyword = $video_detail[0];

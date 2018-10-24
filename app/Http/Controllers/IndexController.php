@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Model\Clip;
 use App\Model\Video;
 
 class IndexController extends Controller
@@ -10,8 +11,11 @@ class IndexController extends Controller
     //首页
     public function index()
     {
-        Video::addFeatureVideo();
-        //return view('index/index');
+       /*
+        Video::addVideoVideo();
+        Clip::addClipVideo();
+       */
+        return view('index/index');
     }
     //完整视频
     public function video()
