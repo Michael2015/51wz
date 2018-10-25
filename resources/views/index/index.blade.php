@@ -9,13 +9,13 @@
             <a href="javascript:void(0)" class="prev">&lt;</a>
             <div class="rollpicshow">
                 <ul>
-                    @foreach ($recommend_video_video as $recommend_video)
+                    @foreach ($recommend_video_video_20 as $recommend_video_video_20)
                         <li>
                             <div class="panel panel-default">
-                                <div class="panel-header past">{{$recommend_video['date']}} / {{week($recommend_video['date'])}}</div>
+                                <div class="panel-header past">{{$recommend_video_video_20['date']}} / {{week($recommend_video_video_20['date'])}}</div>
                                 <div class="panel-body">
                                     <a href="">
-                                        <img src="http://img.haixialiangan.wang?img_url={{substr($recommend_video['video_key_frame_url'],25)}}" alt="{{$recommend_video['video_title']}}">
+                                        <img src="http://img.haixialiangan.wang?img_url={{substr($recommend_video_video_20['video_key_frame_url'],25)}}" alt="{{$recommend_video_video_20['video_title']}}">
                                     </a>
                                 </div>
                             </div>
@@ -35,58 +35,32 @@
                 <div class="slider">
                     <div class="bd bg-fff">
                         <ul>
-                            <li><a href="#" target="_blank"><img
-                                            src="http://p1.img.cctvpic.com/photoAlbum/photo/2018/10/06/PHOTIf3AHsyBM4AWY7EQwgQ4181006_920x700.jpg"></a>
-                            </li>
-                            <li><a href="#" target="_blank"><img
-                                            src="http://p1.img.cctvpic.com/photoAlbum/photo/2018/10/06/PHOTIf3AHsyBM4AWY7EQwgQ4181006_920x700.jpg"></a>
-                            </li>
-                            <li><a href="#" target="_blank"><img
-                                            src="http://p1.img.cctvpic.com/photoAlbum/photo/2018/10/06/PHOTIf3AHsyBM4AWY7EQwgQ4181006_920x700.jpg"></a>
-                            </li>
-                            <li><a href="#" target="_blank"><img
-                                            src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/b-3.jpg"></a>
-                            </li>
-                            <li><a href="#" target="_blank"><img
-                                            src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2018/10/5/1538747601070_528.jpg"></a>
-                            </li>
-                            <li><a href="#" target="_blank"><img
-                                            src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2018/10/5/1538747601070_528.jpg"></a>
+                            <li>
+                                <iframe class="ldgplayer" height="100%" width="100%" frameborder="0" border="0" marginwidth="0" marginheight="0"
+                                        scrolling="no" src="http://video.haixialiangan.wang?pid={{$slider_0_1_video['guid']}}"></iframe>
                             </li>
                         </ul>
                     </div>
                     <ol class="hd cl">
+                        @foreach ($recommend_clip_5 as $recommend_clip_5)
                         <li>
-                            <img src="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2018/10/5/1538747601070_528.jpg"
-                                 width="80" height="58"></li>
-                        <li><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/s-2.jpg" width="80"
-                                 height="58"></li>
-                        <li><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/s-3.jpg" width="80"
-                                 height="58"></li>
-                        <li><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/s-4.jpg" width="80"
-                                 height="58"></li>
-                        <li><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/s-5.jpg" width="80"
-                                 height="58"></li>
-                        <li><img src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/demo/01/images/s-6.jpg" width="80"
-                                 height="58"></li>
+                            <img src="http://img.haixialiangan.wang?img_url={{substr($recommend_clip_5['video_key_frame_url'],25)}}" width="80" height="58" alt="{{$recommend_clip_5['video_title']}}">
+                        </li>
+                        @endforeach
                     </ol>
                 </div>
             </div>
         </div>
         <div class="v-right">
             <ul>
-                @foreach ($slider_0_8_video as $slider_0_8_video)
-                <li>
-                    <a href="">
-                        <img class="cover_img"
-                             src="http://img.haixialiangan.wang?img_url={{substr($slider_0_8_video['video_key_frame_url'],25)}}"
-                             width="100%" alt="">
-                        <p title="{{$slider_0_8_video['video_title']}}">{{$slider_0_8_video['video_title']}}</p>
-                        <img class="play_img"
-                             src="{{asset('images/video_play.png')}}"
-                             alt="视频播放按钮">
-                    </a>
-                </li>
+                @foreach ($slider_1_9_video as $slider_1_9_video)
+                    <li>
+                        <a href="">
+                            <img class="cover_img" src="http://img.haixialiangan.wang?img_url={{substr($slider_1_9_video['video_key_frame_url'],25)}}" width="100%" alt="">
+                            <p title="{{$slider_1_9_video['video_title']}}">{{$slider_1_9_video['video_title']}}</p>
+                            <img class="play_img" src="{{asset('images/video_play.png')}}" alt="视频播放按钮">
+                        </a>
+                    </li>
                 @endforeach
             </ul>
         </div>
@@ -105,21 +79,21 @@
                 </div>
                 <div class="tabCon">
                     <ul>
-                        @foreach ($slider_8_18_video as $slider_8_18_video)
-                        <li>
-                            <div class="panel panel-secondary">
-                                <a href="/video/{{$slider_8_18_video['guid']}}.html">
-                                    <div class="panel-body">
-                                        <img src="http://img.haixialiangan.wang?img_url={{substr($slider_8_18_video['video_key_frame_url'],25)}}"
-                                             alt="">
-                                        <h4>{{$slider_8_18_video['video_title']}}</h4>
-                                        <div class="bg-img">
-                                            <img src="{{asset('images/video_play.png')}}" alt="视频播放按钮">
+                        @foreach ($slider_9_19_video as $slider_9_19_video)
+                            <li>
+                                <div class="panel panel-secondary">
+                                    <a href="/video/{{$slider_9_19_video['guid']}}.html">
+                                        <div class="panel-body">
+                                            <img src="http://img.haixialiangan.wang?img_url={{substr($slider_9_19_video['video_key_frame_url'],25)}}"
+                                                 alt="">
+                                            <h4>{{$slider_9_19_video['video_title']}}</h4>
+                                            <div class="bg-img">
+                                                <img src="{{asset('images/video_play.png')}}" alt="视频播放按钮">
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
+                                    </a>
+                                </div>
+                            </li>
                         @endforeach
                     </ul>
                 </div>
@@ -137,7 +111,7 @@
                 <div class="tabCon">
                     <div class="pd-10 tags">
                         @foreach ($recommend_clip_20 as $recommend_clip_20)
-                        <a href="/clip/{{$recommend_clip_20['guid']}}.html">{{$recommend_clip_20['video_title']}}</a>
+                            <a href="/clip/{{$recommend_clip_20['guid']}}.html">{{$recommend_clip_20['video_title']}}</a>
                         @endforeach
                     </div>
                 </div>

@@ -11,28 +11,37 @@ class IndexController extends Controller
     //首页
     public function index()
     {
-        //Video::addVideoVideo();
-        //Clip::addClipVideo();
+        Video::addVideoVideo();
+        Clip::addClipVideo();
 
         //首页推荐视频
         $recommend_video_video_20 = Video::orderBy('click_num', 'desc')->take(20)->get();
 
-        $recommend_video_video_18 = Video::orderBy('date', 'desc')->take(18)->get();
-        $recommend_video_video_18 = json_decode($recommend_video_video_18, true);
+        $recommend_video_video_19 = Video::orderBy('date', 'desc')->take(19)->get();
+
+        $recommend_video_video_19 = json_decode($recommend_video_video_19, true);
+
+        //获取最新一条视频链接
+        $slider_0_1_video = array_slice($recommend_video_video_19,0,1)[0];
+        //获取最新花絮视频
+        $recommend_clip_5 = Clip::orderBy('date','desc')->take(5)->get();
+
         //首页侧边栏
-        $slider_0_8_video = array_slice($recommend_video_video_18,0,8);
+        $slider_1_9_video = array_slice($recommend_video_video_19,1,8);
 
         //首页视频栏目
-        $slider_8_18_video = array_slice($recommend_video_video_18,8,10);
+        $slider_9_19_video = array_slice($recommend_video_video_19,9,10);
 
-        //首页视频片段
+        //首页推荐视频片段
         $recommend_clip_20 = Clip::orderBy('click_num','desc')->take(20)->get(['guid','video_title']);
 
         return view('index/index',[
-            'recommend_video_video'=>$recommend_video_video_20,
-            'slider_0_8_video'=>$slider_0_8_video,
-            'slider_8_18_video'=>$slider_8_18_video,
+            'recommend_video_video_20'=>$recommend_video_video_20,
+            'slider_0_1_video'=>$slider_0_1_video,
+            'slider_1_9_video'=>$slider_1_9_video,
+            'slider_9_19_video'=>$slider_9_19_video,
             'recommend_clip_20'=>$recommend_clip_20,
+            'recommend_clip_5'=>$recommend_clip_5,
             ]);
     }
     //完整视频
