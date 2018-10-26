@@ -324,3 +324,20 @@ body {
 {
     background: #fff;
 }
+.pagination a,.pagination span
+{
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+.pagination a
+{
+    color: #fff;
+}

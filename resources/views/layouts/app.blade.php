@@ -15,7 +15,7 @@
     <script type="text/javascript" src="{{asset('js/respond.min.js')}}"></script>
     <![endif]-->
     <link href="{{asset('css/h-ui.min.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css" /><!--自己的样式-->
+    <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="container">
@@ -24,13 +24,12 @@
             <div class="container cl">
                 <a class="logo navbar-logo f-l mr-10 hidden-xs" href="{{url('/')}}">新闻1+1直播网</a>
                 <span class="logo navbar-slogan f-l mr-10 hidden-xs">视频 &middot; 锦集 &middot; 图片</span>
-                <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
                 <nav class="nav navbar-nav nav-collapse" role="navigation" id="Hui-navbar">
                     <ul class="cl">
-                        <li class="current"><a href="{{URL::to('/')}}">新闻1+1直播</a></li>
-                        <li><a href="{{URL::to('/video')}}">新闻1+1完整视频</a></li>
-                        <li><a href="{{URL::to('/clip')}}">新闻1+1视频片段</a></li>
-                        <li><a href="{{URL::to('/photo')}}">新闻1+1精彩图片</a></li>
+                        <li @if($action_name === 'index') class="current" @endif><a href="{{URL::to('/')}}">新闻1+1直播</a></li>
+                        <li @if($action_name === 'video') class="current" @endif><a href="{{URL::to('/video')}}">新闻1+1完整视频</a></li>
+                        <li @if($action_name === 'clip') class="current" @endif><a href="{{URL::to('/clip')}}">新闻1+1视频片段</a></li>
+                        <li @if($action_name === 'photo') class="current" @endif><a href="{{URL::to('/photo')}}">新闻1+1精彩图片</a></li>
                     </ul>
                 </nav>
             </div>
@@ -39,7 +38,7 @@
     @yield('content')
     <footer class="footer mt-20">
         <div class="container-fluid">
-            <nav><a href="#" target="_blank">本站将为您带来精彩丰富的<strong>央视新闻1+1直播</strong>视频、新闻、图片、直播等内容，将带您今早观看新闻1+1直播新闻</a></nav>
+            <nav><a href="{{url('/')}}" target="_blank">本站将为您带来精彩丰富的<strong>央视新闻1+1直播</strong>视频、新闻、图片、直播等内容，将带您今早观看新闻1+1直播新闻</a></nav>
             <nav>本站为方便网民观看并传播、弘扬中央伟大精神;让热爱新闻1+1的观众更早观看社会时事热点新闻</nav>
             <p>Copyright&copy; 2018 51wz.wang 侵权联系：3087808537#qq.com All Rights Reserved. <br>
                 <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">京ICP备1000000号</a><br>
@@ -50,7 +49,6 @@
 <script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/H-ui.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/jcarousellite.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/jquery.SuperSlide.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
 </body>
 </html>

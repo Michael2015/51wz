@@ -1,12 +1,12 @@
 @extends('layouts.app')
 @section('title', '新闻1+1_今天央视新闻1+1直播中')
-@section('keywords', '新闻1+1,新闻一加一,新闻1+1视频,新闻1+1直播')
+@section('keywords', '新闻1+1，新闻一加一，新闻1+1视频，新闻1+1直播')
 @section('description', '新闻1+1直播网，为1+1观众提供央视cctv新闻1+1栏目的直播视频，历史视频锦集，精彩图片等信息。')
 @section('content')
     <!--  start  首页精彩视频  -->
     <section class="i-schedule">
         <div class="rollpic cl">
-            <a href="javascript:void(0)" class="prev">&lt;</a>
+            <a href="javascript:void(0)" class="prev"  title="上一页">&lt;</a>
             <div class="rollpicshow">
                 <ul>
                     @foreach ($recommend_video_video_20 as $recommend_video_video_20)
@@ -14,7 +14,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-header past">{{$recommend_video_video_20['date']}} / {{week($recommend_video_video_20['date'])}}</div>
                                 <div class="panel-body">
-                                    <a href="">
+                                    <a href="/video/{{$recommend_video_video_20['guid']}}.html">
                                         <img src="http://img.haixialiangan.wang?img_url={{substr($recommend_video_video_20['video_key_frame_url'],25)}}" alt="{{$recommend_video_video_20['video_title']}}">
                                     </a>
                                 </div>
@@ -23,7 +23,7 @@
                     @endforeach
                 </ul>
             </div>
-            <a href="javascript:void(0)" class="next">&gt;</a>
+            <a href="javascript:void(0)" class="next"  title="下一页">&gt;</a>
         </div>
     </section>
     <!--  end  首页精彩视频  -->
@@ -56,7 +56,7 @@
                 @foreach ($slider_1_9_video as $slider_1_9_video)
                     <li>
                         <a href="">
-                            <img class="cover_img" src="http://img.haixialiangan.wang?img_url={{substr($slider_1_9_video['video_key_frame_url'],25)}}" width="100%" alt="">
+                            <img class="cover_img" src="http://img.haixialiangan.wang?img_url={{substr($slider_1_9_video['video_key_frame_url'],25)}}" width="100%" alt="{{$slider_1_9_video['video_title']}}">
                             <p title="{{$slider_1_9_video['video_title']}}">{{$slider_1_9_video['video_title']}}</p>
                             <img class="play_img" src="{{asset('images/video_play.png')}}" alt="视频播放按钮">
                         </a>

@@ -5,9 +5,17 @@ namespace App\Http\Controllers;
 
 use App\Model\Clip;
 use App\Model\Video;
+use Illuminate\Support\Facades\Route;
 
 class IndexController extends Controller
 {
+    public function __construct()
+    {
+        $action_name = substr(strchr(Route::currentRouteAction(),'@'),1);
+
+        View()->share('action_name', $action_name);
+    }
+
     //首页
     public function index()
     {
@@ -47,7 +55,10 @@ class IndexController extends Controller
     //完整视频
     public function video()
     {
-        return view('index/video');
+        $video_list = Video::orderBy('date', 'desc')->paginate(36);
+        return view('index/video',[
+            'video_list'=>$video_list,
+        ]);
     }
     //视频片段
     public function clip()

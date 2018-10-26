@@ -180,7 +180,9 @@
             </div>
         </div>
         <!-- 视频 -->
-
+        <div class="clear"></div>
+        {{ $video_list->links() }}
+        <div class="clear"></div>
         <!-- 新闻 -->
         <div class="i-cate-all i-cate-news">
             <div  class="HuiTab">
