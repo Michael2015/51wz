@@ -91,4 +91,39 @@ class IndexController extends Controller
             'clip_list'=>$clip_list,
         ]);
     }
+    //完整视频播放页
+    public function video_play($guid)
+    {
+        //完整视频
+        $video_detail = Video::where('guid', '=',$guid)->take(1)->get();
+        $video_detail = json_decode($video_detail,true);
+        if(empty($video_detail))
+        {
+            abort(404, '未授权操作');
+        }
+        //视频片段
+        $video_list = Video::orderBy('date','desc')->take(10)->get();
+        return view('index/video_play',[
+            'video_detail'=>$video_detail,
+            'video_list'=>$video_list,
+        ]);
+    }
+
+    //视频片段播放页
+    public function clip_play($guid)
+    {
+        //完整视频
+        $clip_detail = Clip::where('guid', '=',$guid)->take(1)->get();
+        $clip_detail = json_decode($clip_detail,true);
+        if(empty($clip_detail))
+        {
+            abort(404, '未授权操作');
+        }
+        $clip_list = Clip::orderBy('date','desc')->take(10)->get();
+        return view('index/clip_play',[
+            'clip_detail'=>$clip_detail,
+            'clip_list'=>$clip_list,
+        ]);
+    }
+
 }

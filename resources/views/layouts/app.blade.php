@@ -41,10 +41,18 @@
             <nav class="breadcrumb">
                 <a class="maincolor" href="{{url('/')}}">首页</a>
                 <span class="c-666 en">&gt;</span>
-                @if($action_name == 'video')
+                @if($action_name == 'video' ||  $action_name == 'video_play')
                     <a href="/video">新闻1+1完整视频</a>
-                @elseif($action_name == 'clip')
+                    @if($action_name == 'video_play')
+                        <span class="c-666 en">&gt;</span>
+                        <a href="/video/{{$video_detail[0]['guid']}}.html">{{$video_detail[0]['video_title']}}</a>
+                    @endif
+                    @elseif($action_name == 'clip' || $action_name == 'clip_play')
                     <a href="/clip">新闻1+1视频片段</a>
+                    @if($action_name == 'clip_play')
+                        <span class="c-666 en">&gt;</span>
+                        <a href="/video/{{$clip_detail[0]['guid']}}.html">{{$clip_detail[0]['video_title']}}</a>
+                    @endif
                 @elseif($action_name == 'photo')
                     <a href="/photo">新闻1+1精彩图片</a>
                 @endif

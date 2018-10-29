@@ -16,5 +16,9 @@ Route::get('/', 'IndexController@index');
 Route::get('/video', 'IndexController@video');
 //首页
 Route::get('/clip', 'IndexController@clip');
-//首页
+//图片
 Route::get('/photo', 'IndexController@photo');
+//完整视频详情
+Route::get('/video/{guid}.html', 'IndexController@video_play');
+//视频片段详情
+Route::get('/clip/{guid}.html', 'IndexController@clip_play');

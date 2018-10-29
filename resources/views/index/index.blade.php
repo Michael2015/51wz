@@ -55,7 +55,7 @@
             <ul>
                 @foreach ($slider_1_9_video as $slider_1_9_video)
                     <li>
-                        <a href="">
+                        <a href="/video/{{$slider_1_9_video['guid']}}.html">
                             <img class="cover_img" src="http://img.haixialiangan.wang?img_url={{substr($slider_1_9_video['video_key_frame_url'],25)}}" width="100%" alt="{{$slider_1_9_video['video_title']}}">
                             <p title="{{$slider_1_9_video['video_title']}}">{{$slider_1_9_video['video_title']}}</p>
                             <img class="play_img" src="{{asset('images/video_play.png')}}" alt="视频播放按钮">

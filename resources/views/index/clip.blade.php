@@ -10,7 +10,6 @@
             <div  class="HuiTab">
                 <div class="tabBar clearfix">
                     <span class="current">新闻1+1视频片段</span>
-                    <span class="more">更多+</span>
                 </div>
                 <div class="tabCon">
                     <ul>
