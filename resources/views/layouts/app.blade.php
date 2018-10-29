@@ -35,6 +35,23 @@
             </div>
         </div>
     </header>
+    <!-- 面包屑导航  -->
+    @if($action_name != 'index')
+        <section>
+            <nav class="breadcrumb">
+                <a class="maincolor" href="{{url('/')}}">首页</a>
+                <span class="c-666 en">&gt;</span>
+                @if($action_name == 'video')
+                    <a href="/video">新闻1+1完整视频</a>
+                @elseif($action_name == 'clip')
+                    <a href="/clip">新闻1+1视频片段</a>
+                @elseif($action_name == 'photo')
+                    <a href="/photo">新闻1+1精彩图片</a>
+                @endif
+            </nav>
+        </section>
+    @endif
+<!-- 面包屑导航  -->
     @yield('content')
     <footer class="footer mt-20">
         <div class="container-fluid">

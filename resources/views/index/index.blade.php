@@ -84,8 +84,7 @@
                                 <div class="panel panel-secondary">
                                     <a href="/video/{{$slider_9_19_video['guid']}}.html">
                                         <div class="panel-body">
-                                            <img src="http://img.haixialiangan.wang?img_url={{substr($slider_9_19_video['video_key_frame_url'],25)}}"
-                                                 alt="">
+                                            <img src="http://img.haixialiangan.wang?img_url={{substr($slider_9_19_video['video_key_frame_url'],25)}}" alt="">
                                             <h4>{{$slider_9_19_video['video_title']}}</h4>
                                             <div class="bg-img">
                                                 <img src="{{asset('images/video_play.png')}}" alt="视频播放按钮">

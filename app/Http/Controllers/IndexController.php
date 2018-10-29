@@ -55,19 +55,40 @@ class IndexController extends Controller
     //完整视频
     public function video()
     {
+        //完整视频
         $video_list = Video::orderBy('date', 'desc')->paginate(36);
+        //视频片段
+        $clip_list = Clip::orderBy('click_num','desc')->take(20)->get(['guid','video_title']);
+
         return view('index/video',[
             'video_list'=>$video_list,
+            'clip_list'=>$clip_list,
         ]);
     }
     //视频片段
     public function clip()
     {
-        return view('index/clip');
+        //完整视频
+        $clip_list = Clip::orderBy('date', 'desc')->paginate(36);
+        //视频片段
+        $video_list = Video::orderBy('click_num','desc')->take(20)->get(['guid','video_title']);
+
+        return view('index/clip',[
+            'video_list'=>$video_list,
+            'clip_list'=>$clip_list,
+        ]);
     }
     //精彩图片
     public function photo()
     {
-        return view('index/photo');
+        //完整视频
+        $clip_list = Clip::orderBy('date', 'desc')->paginate(36);
+        //视频片段
+        $video_list = Video::orderBy('click_num','desc')->take(20)->get(['guid','video_title']);
+
+        return view('index/photo',[
+            'video_list'=>$video_list,
+            'clip_list'=>$clip_list,
+        ]);
     }
 }
